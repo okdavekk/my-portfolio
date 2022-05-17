@@ -1,7 +1,3 @@
-/* In summary I changed the order of the CSS in some spots and simplified repeats that occured after grouping
-the HTML and reducing some elements.  I may miss some of these annotations due to getting a late start on 
-documenting them.  I hope I captured most and will do better next time ':)' */
-
 * {
     box-sizing: border-box;
     padding: 0;
@@ -11,7 +7,7 @@ documenting them.  I hope I captured most and will do better next time ':)' */
 body {
     background-color: #d9dcd6;
 }
-/* Rearanged some CSS to flow logically with HTML */
+
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -27,7 +23,7 @@ header h1 {
 header h1 .seo {
     color: #d9dcd6;
 }
-/* Removed div, lo, and li elements and simplified to nav */
+
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -46,7 +42,6 @@ a {
     text-decoration: none;
 }
 
-/* Removed background image and changed height to auto*/
 .hero {
     height: auto;
     width: 100%;
@@ -135,7 +130,7 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-/* Removed repeats of benifit- */
+
 .benefit {
     margin-bottom: 32px;
     color: #ffffff;
@@ -152,7 +147,6 @@ p {
     text-align: center;
 }
 
-/* Changed div(or whatever was there befor) to footer */
 footer {
     padding: 30px;
     clear: both;
