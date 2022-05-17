@@ -1,9 +1,9 @@
-# Name: seo-refactor
+# Name: my-portfolio
 
 ## Resources
-- [LIVE SITE]
+- [LIVE SITE](https://okdavekk.github.io/my-portfolio/)
 
-- [REPOSITORY]
+- [REPOSITORY](https://github.com/okdavekk/my-portfolio)
 
 ## Table of Contents
 - [Resources](#resources)
@@ -14,18 +14,40 @@
 
 - [Authors and Acknowledgement](#authors-and-acknowledgement)
 
-## Description: Horiseon Search Engine Optimization
+## Description: 
 
-Optimized web page for accessability and search engines, also simplified the page CSS and HTML where possible.  
-- A majority of the work came from removing the div elements in favor of semantic HTML elements.
-- The page CSS was reformatted to follow a logical structure with the HTML elements and the HTML elements now follow a logical structure.
-- Alt accessability attributes are now added to the images.
-- The heading attributes follow a sequential order now.
-- The page has a concise and descriptive updated title.
+Dropping assignment here:
+
+User Story
+AS AN employer
+I WANT to view a potential employee's deployed portfolio of work samples
+SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
+Acceptance Criteria
+Here are the critical requirements necessary to develop a portfolio that satisfies a typical hiring manager’s needs:
+
+GIVEN I need to sample a potential employee's previous work
+
+- WHEN I load their portfolio
+THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
+
+- WHEN I click one of the links in the navigation
+THEN the UI scrolls to the corresponding section
+
+- WHEN I click on the link to the section about their work
+THEN the UI scrolls to a section with titled images of the developer's applications
+
+- WHEN I am presented with the developer's first application
+THEN that application's image should be larger in size than the others
+
+- WHEN I click on the images of the applications
+THEN I am taken to that deployed application
+
+- WHEN I resize the page or view the site on various screens and devices
+THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Visuals:
-![Horiseon](./assets/images/Horiseon-Search-Engine-Optimization.png)
+
 
 ## Authors and Acknowledgement
-This file came from the UNCC Coding Bootcamp and I updated the HTML and CSS for a Search Engine Optimization assignment.
+Created by...
 
