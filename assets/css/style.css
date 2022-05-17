@@ -96,7 +96,7 @@ a {
     font-size: 36px;
 }
 
-.social-media-marketing {
+.contact-info {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -105,13 +105,13 @@ a {
     color: #ffffff;
 }
 
-.social-media-marketing img {
+.contact-info img {
     max-height: 200px;
     float: left;
     margin-right: 20px;
 }
 
-.social-media-marketing h2 {
+.contact-info h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
