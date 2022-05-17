@@ -11,7 +11,7 @@ body {
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
+    background-color: #856c1b;
     color: #ffffff;
 }
 
@@ -45,6 +45,7 @@ a {
 .developer-picture {
     height: auto;
     width: 30%;
+    padding: 20px;
     margin-bottom: 25px;
     background-size: cover;
     background-position: center;
@@ -61,7 +62,7 @@ a {
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
+    background-color: #856c1b;
     color: #ffffff;
 }
 
@@ -81,7 +82,7 @@ a {
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
+    background-color: #856c1b;
     color: #ffffff;
 }
 
@@ -101,7 +102,7 @@ a {
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
+    background-color: #856c1b;
     color: #ffffff;
 }
 
@@ -128,7 +129,7 @@ p {
     width: 20%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
+    background-color: #856c1b;
 }
 
 .benefit {
