@@ -40,6 +40,7 @@ DONE--------------------
 - WHEN I click on the link to the section about their work
 THEN the UI scrolls to a section with titled images of the developer's applications
 
+MAYBE DONE--------------
 - WHEN I am presented with the developer's first application
 THEN that application's image should be larger in size than the others
 
