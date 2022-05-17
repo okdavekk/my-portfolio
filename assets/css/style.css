@@ -56,7 +56,7 @@ a {
     margin-left: 20px;
 }
 
-.search-engine-optimization {
+.about-me {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -65,13 +65,13 @@ a {
     color: #ffffff;
 }
 
-.search-engine-optimization img {
+.about-me img {
     max-height: 200px;
     float: left;
     margin-right: 25px;
 }
 
-.search-engine-optimization h2 {
+.about-me h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
