@@ -26,6 +26,10 @@ header h1 {
     color: #ffffff;
 }
 
+footer {
+    background-color: #856c1b;
+}
+
 nav {
     display: flex;
     /* padding: 1px; */
@@ -161,6 +165,10 @@ p {
     /* box-shadow: 8px 8px burlywood; */
 }
 
+.my-work img {
+    max-width: 100%;
+}
+
 .work {
     /* display: flex;
     display: inline-block; */
@@ -173,6 +181,11 @@ p {
     display: block;
     margin: 10px auto;
     max-width: 150px;
+    text-align: center;
+}
+
+div {
+    padding: 4px;
 }
 
 .work h3 {
@@ -193,13 +206,18 @@ footer {
         background: #772014;
 }
 
+    footer {
+        transition: background-color 0.5s ease;
+        background: #772014;
+    }
+
     header nav {
         flex-direction: column;
 }
     .my-work {
         flex-wrap: wrap;
         width: 100%;
-        margin-bottom: 20px;
+        /* margin-bottom: 20px; */
         /* padding: 25px; */
         /* margin-left: 25px; */
         /* height: 300px; */
@@ -282,6 +300,14 @@ footer {
     }
     .my-work {
         transition: background-color 0.5s ease;
+        /* margin-bottom: 0px; */
+        /* padding-bottom: 0px; */
+        padding: 8px 0px 0px 8px;
+        margin-bottom: -24px;
     }
-
+    
+    footer {
+        transition: background-color 0.5s ease;
+    }
+    
 }
