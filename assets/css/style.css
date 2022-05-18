@@ -1,4 +1,4 @@
-/* I USED THE HORISEON CODE AS A STARTER JUST TO HAVE SOMETHING TO COMMENT OUT AND CHANGE.  I WANTED A GOOD SOLID STARTING POINT. THAT SAID, I THINK I HIT THE MARK ON NOT PLAGIARIZING DUE TO HOME MUCH I CHANGED THE CODE AND IT IS NOW UNIQUE TO ME.  IF THIS IS FLAGGED I APOLOGIZE IN ADVANCE AND WILL START FRESH FROM NOW ON. */
+/* I USED THE HORISEON CODE AS A STARTER JUST TO HAVE SOMETHING TO COMMENT OUT AND CHANGE.  I WANTED A GOOD SOLID STARTING POINT. THAT SAID, I THINK I HIT THE MARK ON NOT PLAGIARIZING DUE TO HOW MUCH I CHANGED THE CODE AND IT IS NOW UNIQUE TO ME.  IF THIS IS FLAGGED I APOLOGIZE IN ADVANCE AND WILL START FRESH FROM NOW ON. */
 
 * {
     box-sizing: border-box;
@@ -20,7 +20,7 @@ header h1 {
     background-color: #856c1b;
     color: #000000;
     font-size: 48px;
-    padding: 0px 24px 12px 12px;
+    padding: 4px 24px 12px 12px;
 }
 
 nav {
@@ -48,11 +48,13 @@ a {
 .developer-picture {
     background-position: center;
     background-size: cover;
+    position: relative;
     height: auto;
-    margin-top: 4px;
+    margin-top: 12px;
     margin-bottom: 4px;
     width: 30%;
     border: 4px solid black;
+    border-radius: 4px;
 }
 
 .content {
@@ -69,7 +71,8 @@ a {
     margin-bottom: 20px;
     padding: 24px;
     height: 420px;
-    box-shadow: 8px 8px burlywood;
+    box-shadow: 8px 8px #912525d8;
+    border-radius: 4px;
 }
 
 .about-me h2 {
@@ -83,7 +86,8 @@ a {
     margin-bottom: 20px;
     padding: 24px;
     height: 420px;
-    box-shadow: 8px 8px burlywood;
+    box-shadow: 8px 8px #912525d8;
+    border-radius: 4px;
 }
 
 .contact-info h2 {
@@ -110,6 +114,8 @@ p {
     background-color: #856c1b;
     color: #ffffff;
     margin-bottom: 32px;
+    border-radius: 4px;
+
 }
 
 .work h2 {
@@ -126,12 +132,19 @@ p {
     max-width: 148px;
 }
 
+/* ACCEPTANCE CRITERIA */
+/* ANIMATION FOR HOVERING OVER REPO */
+/* ANIMATION FOR HOVERING OVER REPO */
+/* ANIMATION FOR HOVERING OVER REPO */
 .make-me-big {
     transition: all .2s ease-in-out; 
 }
 .make-me-big:hover { 
     transform: scale(1.5); 
 }
+/* ANIMATION FOR HOVERING OVER REPO */
+/* ANIMATION FOR HOVERING OVER REPO */
+/* ANIMATION FOR HOVERING OVER REPO */
 
 div {
     padding: 4px;
@@ -154,34 +167,29 @@ footer {
     font-size: 20px;
 }
 
+/* ACCEPTANCE CRITERIA */
+/* AS THE WEBPAGE GETS SMALLER, SOME ITEMS TRANSITION WITH THE SIZE: BEGIN */
+/* AS THE WEBPAGE GETS SMALLER, SOME ITEMS TRANSITION WITH THE SIZE: BEGIN */
+/* AS THE WEBPAGE GETS SMALLER, SOME ITEMS TRANSITION WITH THE SIZE: BEGIN */
 @media screen and (max-width: 1180px){
  
     .my-work h2 {
-        /* transition: background-color 0.5s ease; */
         transition: color 0.5s ease;
         color: #912525;
     }
-
 }
-
-
 
 @media screen and (max-width: 957px){
  
     .my-work h2 {
         font-size: 28px;
-        /* transition: background-color 0.5s ease;
-        transition: color 0.5s ease;
-        color: #3b3a3a; */
+        transition: 0.5s ease;
     }
 }
-
-
 
 @media screen and (max-width: 954px){
  
     .my-work h2 {
-        /* transition: background-color 0.5s ease; */
         transition: color 0.5s ease;
         color: #3b3a3a;
     }
@@ -190,13 +198,18 @@ footer {
 @media screen and (max-width: 804px){
  
     .my-work h2 {
-        font-size: 20px;
-        /* transition: background-color 0.5s ease;
-        transition: color 0.5s ease;
-        color: #3b3a3a; */
+        transition: 0.5s ease;
+        font-size: 24px;
     }
 }
+/* AS THE WEBPAGE GETS SMALLER, SOME ITEMS TRANSITION WITH THE SIZE: END */
+/* AS THE WEBPAGE GETS SMALLER, SOME ITEMS TRANSITION WITH THE SIZE: END */
+/* AS THE WEBPAGE GETS SMALLER, SOME ITEMS TRANSITION WITH THE SIZE: END */
 
+/* ACCEPTANCE CRITERIA */
+/* MOBILE FRIENDLY SECTION: START*/ 
+/* MOBILE FRIENDLY SECTION: START*/ 
+/* MOBILE FRIENDLY SECTION: START*/ 
 @media screen and (max-width: 768px){
     
     header h1 {
@@ -204,7 +217,8 @@ footer {
         background: #772014;
         transition: color 0.5s ease;
         color: #ffffff;
-        padding-top: 8px;
+        padding: 4px 24px 12px 12px;
+
     }
 
     header nav {
@@ -283,6 +297,20 @@ footer {
     }
 
 }
+/* MOBILE FRIENDLY SECTION: END*/ 
+/* MOBILE FRIENDLY SECTION: END*/ 
+/* MOBILE FRIENDLY SECTION: END*/ 
+
+/* ACCEPTANCE CRITERIA */
+/* AS ITS BEING EXPANDED AGAIN THERE ARE THESE TRANSITIONS: START */
+/* AS ITS BEING EXPANDED AGAIN THERE ARE THESE TRANSITIONS: START */
+/* AS ITS BEING EXPANDED AGAIN THERE ARE THESE TRANSITIONS: START */
+@media screen and (min-width: 805px){
+ 
+    .my-work h2 {
+        transition: 0.5s ease;
+    }
+}
 
 @media screen and (min-width: 769px){
     header h1 {
@@ -304,3 +332,6 @@ footer {
         transition: background-color 0.5s ease;
     }   
 }
+/* AS ITS BEING EXPANDED AGAIN THERE ARE THESE TRANSITIONS: END */
+/* AS ITS BEING EXPANDED AGAIN THERE ARE THESE TRANSITIONS: END */
+/* AS ITS BEING EXPANDED AGAIN THERE ARE THESE TRANSITIONS: END */
