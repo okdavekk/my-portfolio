@@ -92,21 +92,20 @@ a {
 }
 
 p {
-    font-size: 20px;
+    font-size: 17px;
 }
 
 .my-work {
     display: flex;
     flex-direction: column;
-    clear: both;
     float: right;
     height: auto;
-    padding: 8px;
     width: 25%;
     padding: 8px 8px 8px 8px;
 }
 
 .work {
+    display: flex;
     display: inline-block;
     background-color: #856c1b;
     color: #ffffff;
@@ -114,9 +113,9 @@ p {
 }
 
 .work h2 {
+    align-content: center;
     font-size: 36px;
-    margin-bottom: 20px;
-    padding: 24px;
+    padding: 24px 24px 24px 24px;
     color: #000000;
 }
 
@@ -144,7 +143,8 @@ div {
 }
 
 footer {
-    background-color: #856c1b;
+    background-color: #857c62;
+
 }
 
 footer {
@@ -152,6 +152,49 @@ footer {
     clear: both;
     padding: 36px;
     font-size: 20px;
+}
+
+@media screen and (max-width: 1180px){
+ 
+    .my-work h2 {
+        /* transition: background-color 0.5s ease; */
+        transition: color 0.5s ease;
+        color: #912525;
+    }
+
+}
+
+
+
+@media screen and (max-width: 957px){
+ 
+    .my-work h2 {
+        font-size: 28px;
+        /* transition: background-color 0.5s ease;
+        transition: color 0.5s ease;
+        color: #3b3a3a; */
+    }
+}
+
+
+
+@media screen and (max-width: 954px){
+ 
+    .my-work h2 {
+        /* transition: background-color 0.5s ease; */
+        transition: color 0.5s ease;
+        color: #3b3a3a;
+    }
+}
+
+@media screen and (max-width: 804px){
+ 
+    .my-work h2 {
+        font-size: 20px;
+        /* transition: background-color 0.5s ease;
+        transition: color 0.5s ease;
+        color: #3b3a3a; */
+    }
 }
 
 @media screen and (max-width: 768px){
