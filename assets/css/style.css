@@ -89,19 +89,9 @@ a {
     margin-bottom: 20px;
 }
 
-/* .misc-info {
-    padding: 24px 8px 8px 8px;
-    height: auto;
-    background-color: #856c1b;
-    color: #ffffff;
-    box-shadow: 8px 8px burlywood;
-} */
-
-/* .misc-info h2 {
-    font-size: 36px;
-    padding: 24px;
-    margin-bottom: 20px;
-} */
+p {
+    font-size: 20px;
+}
 
 .my-work {
     display: flex;
@@ -145,13 +135,9 @@ div {
     padding: 4px;
 }
 
-p {
-    font-size: 20px;
-}
-
 .work h3 {
-    margin-bottom: 10px;
     text-align: center;
+    margin-bottom: 8px;
 }
 
 footer {
@@ -159,9 +145,9 @@ footer {
 }
 
 footer {
-    padding: 30px;
-    clear: both;
     text-align: center;
+    clear: both;
+    padding: 36px;
     font-size: 20px;
 }
 
@@ -171,54 +157,18 @@ footer {
         background: #772014;
         transition: color 0.5s ease;
         color: #ffffff;
-}
-    /* .misc-info {
-        background-color: #857c62;
-        box-shadow: none;
-    } */
-
-    footer {
-        transition: background-color 0.5s ease;
-        background: #772014;
     }
-
     header nav {
         flex-direction: column;
-}
-    .my-work {
-        flex-wrap: wrap;
-        width: 100%;
-        padding: 0px 8px 8px 0px;
     }
 
-    .work {
-    padding: 24px;
-}
-
-    .about-me, .contact-info {
-    background-color: #857c62;
-    box-shadow: none;
-    transition: background-color 0.5s ease;
-}
-
-    .my-work {
-    background-color: #772014;
-    padding-top: 20px;
-}
-
-    .work {
-    background-color: #857c62;
-    padding: 12px;
-    transition: background-color 0.5s ease;
-}
-
     .content {
-    width: 100%;
-    background: #772014;
-    transition: background-color 0.5s ease;
-    padding: 8px 8px 0px 8px;
-}
-    
+        width: 100%;
+        background: #772014;
+        transition: background-color 0.5s ease;
+        padding: 8px 8px 0px 8px;
+    }
+
     .my-picture-section {
         padding-left: 0px;
         justify-content: center;
@@ -232,6 +182,38 @@ footer {
         padding: 0px;
     }
 
+    .about-me, .contact-info {
+        background-color: #857c62;
+        box-shadow: none;
+        transition: background-color 0.5s ease;
+    }
+    
+    .about-me {
+        margin-top: 12px;
+    }
+
+    footer {
+        transition: background-color 0.5s ease;
+        background: #772014;
+    }
+
+    .my-work {
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 0px 8px 8px 0px;
+    }
+
+    .my-work {
+        background-color: #772014;
+        padding: 0px 8px 0px 8px;
+    }
+
+    .work {
+        background-color: #857c62;
+        transition: background-color 0.5s ease;
+        padding: 24px;  
+    }
+
     .work h2 {
         padding: 16px;
         margin-left: 0px;
@@ -239,9 +221,11 @@ footer {
 
     .work img {
         max-width: 100px;
-        display: inline-block;
     }
+
+
 }
+
 
 @media screen and (min-width: 769px){
     header h1 {
