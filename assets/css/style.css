@@ -13,6 +13,10 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+/* header {
+    padding-left: 8px;
+} */
+
 
 header h1 {
     padding: 20px;
@@ -24,16 +28,13 @@ header h1 {
 
 nav {
     display: flex;
-    padding: 1px;
+    /* padding: 1px; */
     padding-top: 15px;
     padding-bottom: 15px;
     font-size: 20px;
     background-color: #857c62;
+    /* padding-left: 8px; */
 
-}
-
-img {
-    justify-items: center;
 }
 
 nav a {
@@ -46,13 +47,22 @@ a {
     text-decoration: none;
 }
 
+.my-picture-section {
+    padding-left: 8px;
+}
+
 .developer-picture {
     height: auto;
     width: 30%;
-    padding: 20px;
-    margin-bottom: 25px;
+    /* padding: 20px; */
+    /* padding-left: 4px; */
+    margin-bottom: 4px;
+    margin-top: 4px;
     background-size: cover;
     background-position: center;
+    /* box-shadow: 8px 8px #857c62; */
+    border: 4px solid black;
+    /* border-width: 4px; */
 }
 
 .content {
@@ -72,10 +82,24 @@ a {
     height: 300px;
     background-color: #856c1b;
     color: #ffffff;
+    box-shadow: 8px 8px burlywood;
+
 }
 
 .about-me h2 {
     margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.contact-info h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.work h2 {
+    margin-bottom: 20px;
+    padding: 25px;
+    /* height: 100%; */
     font-size: 36px;
 }
 
@@ -85,12 +109,13 @@ a {
     height: 300px;
     background-color: #856c1b;
     color: #ffffff;
+    box-shadow: 8px 8px burlywood;
 }
 
-.contact-info h2 {
+/* .contact-info h2 {
     margin-bottom: 20px;
     font-size: 36px;
-}
+} */
 
 .horiseon-seo {
     margin-bottom: 20px;
@@ -113,13 +138,13 @@ a {
     	transform: scale(1.5); 
 }
 
-.horiseon-seo h2 {
+/* .horiseon-seo h2 {
     margin-bottom: 20px;
     font-size: 36px;
-}
+} */
 
 p {
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .my-work {
@@ -133,6 +158,7 @@ p {
     float: right;
     width: 25%;
     height: 100%;
+    /* box-shadow: 8px 8px burlywood; */
 }
 
 .work {
@@ -163,10 +189,12 @@ footer {
 
 @media screen and (max-width: 768px){
     header h1 {
-    background: #772014;
+        transition: background-color 0.5s ease;
+        background: #772014;
 }
+
     header nav {
-    flex-direction: column;
+        flex-direction: column;
 }
     .my-work {
         flex-wrap: wrap;
@@ -177,18 +205,62 @@ footer {
         /* height: 300px; */
     }
 
-.work {
+    .work {
     padding: 24px;
 }
 
-.content {
+    .about-me, .contact-info {
+    background-color: #857c62;
+    box-shadow: none;
+    transition: background-color 0.5s ease;
+}
+
+    .my-work {
+    background-color: #772014;
+    padding-top: 0px;
+}
+
+    .work {
+    background-color: #857c62;
+    padding: 12px;
+    transition: background-color 0.5s ease;
+}
+
+    .content {
     width: 100%;
+    background: #772014;
+    transition: background-color 0.5s ease;
+    padding: 8px 8px 0px 8px;
 }
 
     /* .horiseon-seo h2 {
         font-size: 15px;
     } */
     
+    .my-picture-section {
+        /* align-self: center; */
+        padding-left: 0px;
+        justify-content: center;
+
+        /* margin: none; */
+
+    }
+
+    .developer-picture {
+        /* align-items: center;
+        padding-left: none;
+        margin: none; */
+        /* margin-bottom: none; */
+        margin-top: 0px;
+        margin-bottom: -4px;
+        padding: 0px;
+    }
+
+    .work h2 {
+        padding: 16px;
+        margin-left: 0px;
+    }
+
     .work img {
         max-width: 100px;
         display: inline-block;
