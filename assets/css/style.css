@@ -67,37 +67,65 @@ a {
 
 .about-me {
     background-color: #856c1b;
+    box-shadow: 8px 8px #857c62;
     color: #ffffff;
     margin-bottom: 20px;
     padding: 24px;
     height: 420px;
-    box-shadow: 8px 8px #912525d8;
     border-radius: 4px;
 }
 
 .about-me h2 {
+    color: #000000;
     font-size: 36px;
     margin-bottom: 20px;
 }
 
 .contact-info {
     background-color: #856c1b;
+    box-shadow: 8px 8px #857c62;
     color: #ffffff;
     margin-bottom: 20px;
     padding: 24px;
     height: 420px;
-    box-shadow: 8px 8px #912525d8;
     border-radius: 4px;
 }
 
 .contact-info h2 {
+    display: block;
+    color: #000000;
     font-size: 36px;
     margin-bottom: 20px;
+    
 }
 
 p {
+    text-align: justify;
     font-size: 17px;
 }
+
+/* DOESNT WORK */
+/* DOESNT WORK */
+/* DOESNT WORK FIX ME*/
+/* DOESNT WORK FIX ME*/
+/* ANIMATION FOR HOVERING OVER EMAIL */
+/* ANIMATION FOR HOVERING OVER EMAIL */
+/* ANIMATION FOR HOVERING OVER EMAIL */
+.make-email-big-hover {
+    transition: all .2s ease-in-out; 
+}
+
+.make-email-big-hover:hover { 
+    transform: 26px; 
+    transform: scale(1.5); 
+}
+/* ANIMATION FOR HOVERING OVER EMAIL */
+/* ANIMATION FOR HOVERING OVER EMAIL */
+/* ANIMATION FOR HOVERING OVER EMAIL */
+/* DOESNT WORK FIX ME*/
+/* DOESNT WORK FIX ME*/
+/* DOESNT WORK */
+/* DOESNT WORK */
 
 .my-work {
     display: flex;
@@ -122,7 +150,6 @@ p {
     align-content: center;
     font-size: 36px;
     padding: 24px 24px 24px 24px;
-    color: #000000;
 }
 
 .work img {
@@ -165,12 +192,69 @@ footer {
     clear: both;
     padding: 36px;
     font-size: 20px;
+    color: #000000;
 }
 
+footer p {
+    text-align: center;
+}
+
+/* I WOULD REALLY LIKE TO ROTATE THE D SO ITS BACKWARD.  SO THE D AND K CAN BE BACK TO BACK */
+
+/* footer span {
+    transform: rotate(180deg);
+} */
+
+
+                                                /* END OF NORMAL CSS */
+                                /* END OF NORMAL CSS */
+                /* END OF NORMAL CSS */
+/* END OF NORMAL CSS */
+                 /* END OF NORMAL CSS */
+                                 /* END OF NORMAL CSS */
+                                                 /* END OF NORMAL CSS */
+                                /* END OF NORMAL CSS */
+                /* END OF NORMAL CSS */
+/* END OF NORMAL CSS */
+                /* END OF NORMAL CSS */
+                                /* END OF NORMAL CSS */
+                                                 /* END OF NORMAL CSS */
+                                                /* END OF NORMAL CSS */
+                                /* END OF NORMAL CSS */
+                /* END OF NORMAL CSS */
+/* END OF NORMAL CSS */
+                 /* END OF NORMAL CSS */
+                                 /* END OF NORMAL CSS */
+                                                 /* END OF NORMAL CSS */
+                                /* END OF NORMAL CSS */
+                /* END OF NORMAL CSS */
+/* END OF NORMAL CSS */
+                /* END OF NORMAL CSS */
+                                /* END OF NORMAL CSS */
+                                                 /* END OF NORMAL CSS */
+                                                /* END OF NORMAL CSS */
+                                /* END OF NORMAL CSS */
+                /* END OF NORMAL CSS */
+/* END OF NORMAL CSS */
+                 /* END OF NORMAL CSS */
+                                 /* END OF NORMAL CSS */
+                                                 /* END OF NORMAL CSS */
+                                /* END OF NORMAL CSS */
+                /* END OF NORMAL CSS */
+/* END OF NORMAL CSS */
+                /* END OF NORMAL CSS */
+                                /* END OF NORMAL CSS */
+                                                 /* END OF NORMAL CSS */
+
+
+
+
+
+             
 /* ACCEPTANCE CRITERIA */
-/* AS THE WEBPAGE GETS SMALLER, SOME ITEMS TRANSITION WITH THE SIZE: BEGIN */
-/* AS THE WEBPAGE GETS SMALLER, SOME ITEMS TRANSITION WITH THE SIZE: BEGIN */
-/* AS THE WEBPAGE GETS SMALLER, SOME ITEMS TRANSITION WITH THE SIZE: BEGIN */
+/* AS THE WEBPAGE GETS SMALLER h2 CHANGES AS WELL: BEGIN */
+/* AS THE WEBPAGE GETS SMALLER h2 CHANGES AS WELL: BEGIN */
+/* AS THE WEBPAGE GETS SMALLER h2 CHANGES AS WELL: BEGIN */
 @media screen and (max-width: 1180px){
  
     .my-work h2 {
@@ -202,9 +286,10 @@ footer {
         font-size: 24px;
     }
 }
-/* AS THE WEBPAGE GETS SMALLER, SOME ITEMS TRANSITION WITH THE SIZE: END */
-/* AS THE WEBPAGE GETS SMALLER, SOME ITEMS TRANSITION WITH THE SIZE: END */
-/* AS THE WEBPAGE GETS SMALLER, SOME ITEMS TRANSITION WITH THE SIZE: END */
+/* AS THE WEBPAGE GETS SMALLER h2 CHANGES AS WELL: END */
+/* AS THE WEBPAGE GETS SMALLER h2 CHANGES AS WELL: END */
+/* AS THE WEBPAGE GETS SMALLER h2 CHANGES AS WELL: END */
+
 
 /* ACCEPTANCE CRITERIA */
 /* MOBILE FRIENDLY SECTION: START*/ 
@@ -229,10 +314,8 @@ footer {
         display: flex;
         margin-left: auto;
         margin-right: auto;
-        width: 50%;
-        min-width: 200px;
-        padding-left: 0px;
         justify-content: center;
+        padding-left: 0px;
         width: 100%;
     }
 
@@ -248,20 +331,28 @@ footer {
     }
 
     .content {
-        width: 100%;
-        background: #772014;
         transition: background-color 0.5s ease;
+        background: #772014;
+        width: 100%;
         padding: 8px 8px 0px 8px;
     }
 
-    .about-me, .contact-info {
+    .contact-info {
         background-color: #857c62;
-        box-shadow: none;
         transition: background-color 0.5s ease;
+        box-shadow: none;
     }
     
     .about-me {
+        background-color: #857c62;
+        transition: background-color 0.5s ease;
+        box-shadow: none;
         margin-top: 12px;
+        
+    }
+
+    .about-me p {
+        font-size: 15px;
     }
 
     .my-work {
@@ -284,6 +375,7 @@ footer {
     .work h2 {
         padding: 16px;
         margin-left: 0px;
+        font-size: 36px;
     }
 
     .work img {
@@ -313,21 +405,27 @@ footer {
 }
 
 @media screen and (min-width: 769px){
+
     header h1 {
         transition: background-color 0.5s ease;
     }
+
     .content {
         transition: background-color 0.5s ease;
     }
+
     .about-me {
         transition: background-color 0.5s ease;
     }
+    
     .contact-info {
         transition: background-color 0.5s ease;
     }
+
     .my-work {
         transition: background-color 0.5s ease;
     }
+    
     footer {
         transition: background-color 0.5s ease;
     }   
