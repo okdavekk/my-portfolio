@@ -44,7 +44,7 @@ MAYBE DONE--------------
 - WHEN I am presented with the developer's first application
 THEN that application's image should be larger in size than the others
 
-
+DONE------------
 - WHEN I click on the images of the applications
 THEN I am taken to that deployed application
 
