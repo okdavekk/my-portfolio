@@ -9,19 +9,22 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-header {
+/* h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+} */
+
+header h1 {
     padding: 20px;
+    text-align: left;
+    font-size: 48px;
     background-color: #856c1b;
     color: #ffffff;
 }
 
-header h1 {
-    text-align: left;
-    font-size: 48px;
-}
-
 nav {
     display: flex;
+    padding: 1px;
     padding-top: 15px;
     padding-bottom: 15px;
     font-size: 20px;
@@ -140,19 +143,22 @@ footer {
     padding: 30px;
     clear: both;
     text-align: center;
-}
-
-footer h2 {
     font-size: 20px;
 }
 
 @media screen and (max-width: 768px){
-    header {
-    background: #772014;}
+    header h1 {
+    background: #772014;
 }
-    header, nav {
+    header nav {
     flex-direction: column;
 }
-    aside {
-        order: 2;
+    .my-work {
+        order: 3;
     }
+
+    main section h2 {
+        font-size: 15px;
+    }
+ 
+}
