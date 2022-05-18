@@ -266,3 +266,22 @@ footer {
         display: inline-block;
     }
 }
+
+@media screen and (min-width: 769px){
+    header h1 {
+        transition: background-color 0.5s ease;
+    }
+    .content{
+        transition: background-color 0.5s ease;
+    }
+    .about-me {
+        transition: background-color 0.5s ease;
+    }
+    .contact-info {
+        transition: background-color 0.5s ease;
+    }
+    .my-work {
+        transition: background-color 0.5s ease;
+    }
+
+}
