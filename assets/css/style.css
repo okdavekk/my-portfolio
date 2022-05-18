@@ -11,6 +11,7 @@ body {
     display: inline-block;
     background-color: #d9dcd6;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-content: center;
 }
 
 /* header {
@@ -88,6 +89,20 @@ a {
     color: #ffffff;
     box-shadow: 8px 8px burlywood;
 
+}
+
+.misc-info h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.misc-info {
+    /* margin-bottom: 20px; */
+    padding: 25px;
+    height: 228px;
+    background-color: #856c1b;
+    color: #ffffff;
+    box-shadow: 8px 8px burlywood;
 }
 
 .about-me h2 {
@@ -302,10 +317,10 @@ footer {
         transition: background-color 0.5s ease;
         /* margin-bottom: 0px; */
         /* padding-bottom: 0px; */
-        padding: 8px 0px 0px 8px;
+        padding: 8px 8px 0px 8px;
         margin-bottom: -24px;
     }
-    
+
     footer {
         transition: background-color 0.5s ease;
     }
