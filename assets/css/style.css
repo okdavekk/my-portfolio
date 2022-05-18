@@ -115,6 +115,7 @@ p {
     font-size: 36px;
     margin-bottom: 20px;
     padding: 24px;
+    color: #000000;
 }
 
 .work img {
@@ -152,14 +153,39 @@ footer {
 }
 
 @media screen and (max-width: 768px){
+    
     header h1 {
         transition: background-color 0.5s ease;
         background: #772014;
         transition: color 0.5s ease;
         color: #ffffff;
+        padding-top: 8px;
     }
+
     header nav {
         flex-direction: column;
+    }
+
+    .my-picture-section {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        min-width: 200px;
+        padding-left: 0px;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .developer-picture {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .my-work h2 {
+        transition: background-color 0.5s ease;
+        transition: color 0.5s ease;
+        color: #ffffff;
     }
 
     .content {
@@ -167,19 +193,6 @@ footer {
         background: #772014;
         transition: background-color 0.5s ease;
         padding: 8px 8px 0px 8px;
-    }
-
-    .my-picture-section {
-        padding-left: 0px;
-        justify-content: center;
-    }
-
-    .developer-picture {
-        padding-left: none;
-        margin: none;
-        margin-top: 0px;
-        margin-bottom: -4px;
-        padding: 0px;
     }
 
     .about-me, .contact-info {
@@ -190,11 +203,6 @@ footer {
     
     .about-me {
         margin-top: 12px;
-    }
-
-    footer {
-        transition: background-color 0.5s ease;
-        background: #772014;
     }
 
     .my-work {
@@ -223,9 +231,13 @@ footer {
         max-width: 100px;
     }
 
+    footer {
+        transition: background-color 0.5s ease;
+        background: #772014;
+        padding: 0px 0px 28px 0px;
+    }
 
 }
-
 
 @media screen and (min-width: 769px){
     header h1 {
